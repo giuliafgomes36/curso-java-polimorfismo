@@ -10,6 +10,7 @@ public class Gerente extends Funcionario{
     }
 
     public double getBonificacao(){
+        System.out.println("Bonificação do GERENTE");
         return super.getBonificacao() + super.getSalario();//o this geralmente é usado quando o atibuto é definido na classe.
     }
 
