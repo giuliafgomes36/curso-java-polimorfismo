@@ -7,9 +7,9 @@ public abstract class Funcionario {
     private String cpf;
     private double  salario;
 
-    public double getBonificacao(){
-        return this.salario * 0.1;
-    }
+    //Tornamos esse método abstrato para que possamos usar o polimorfismo sobre ele.
+    //Dessa forma, não é necessaria nenhuma implementação padrão.
+    public abstract double getBonificacao();
 
     public String getNome() {
         return nome;
