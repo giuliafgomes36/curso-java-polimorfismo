@@ -8,18 +8,10 @@ public class Conta {
     private contas.Cliente titular;
     private static int total;//O static esta se referenciando à classe e não a um objeto em específico (lembra uma variável global)
 
-    public Conta(){
-
-    }
-
     public Conta(int agencia, int numero){
         Conta.total++;
         this.setAgencia(agencia);
         this.setNumero(numero);
-    }
-
-    public double getSaldo() {
-        return saldo;
     }
 
     public void deposita (double valor){
@@ -35,13 +27,17 @@ public class Conta {
         }
     }
 
+    //Polimorfismo: "Conta destino" funciona para qualquer tipo de conta.
     public boolean transfere(double valor, Conta destino){
-        if (this.saldo >=valor){
-            this.saca(valor);
+        if (this.saca(valor)){
             destino.deposita(valor);
             return true;
         }
         return false;
+    }
+
+    public double getSaldo() {
+        return saldo;
     }
 
     public int getAgencia() {
