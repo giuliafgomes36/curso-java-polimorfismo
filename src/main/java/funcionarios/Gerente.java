@@ -8,7 +8,7 @@ public class Gerente extends Funcionario{
     @Override
     public double getBonificacao(){
         System.out.println("Bonificação do GERENTE");
-        return super.getBonificacao() + super.getSalario();//o this geralmente é usado quando o atibuto é definido na classe.
+        return super.getSalario();//o this geralmente é usado quando o atibuto é definido na classe.
     }
 
     public void setSenha(int senha){
