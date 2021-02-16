@@ -8,7 +8,8 @@ public abstract class Funcionario {
     private double  salario;
 
     //Tornamos esse método abstrato para que possamos usar o polimorfismo sobre ele.
-    //Dessa forma, não é necessaria nenhuma implementação padrão.
+    //Dessa forma, não é necessaria nenhuma implementação.
+    //Os filhos devem implementar.
     public abstract double getBonificacao();
 
     public String getNome() {
