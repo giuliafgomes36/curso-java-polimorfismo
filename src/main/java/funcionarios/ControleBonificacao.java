@@ -1,4 +1,4 @@
-package classes;
+package funcionarios;
 
 public class ControleBonificacao {
 

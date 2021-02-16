@@ -1,4 +1,4 @@
-package classes;
+package funcionarios;
 
 public class CriaFuncionario {
     public static void main(String[] args) {

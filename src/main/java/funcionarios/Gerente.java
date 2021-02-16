@@ -1,4 +1,4 @@
-package classes;
+package funcionarios;
 
 //Gerente herda da classe Funcionario
 public class Gerente extends Funcionario{

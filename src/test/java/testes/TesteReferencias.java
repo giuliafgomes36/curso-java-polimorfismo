@@ -1,9 +1,9 @@
 package testes;
 
-import classes.ControleBonificacao;
-import classes.EditorVideo;
-import classes.Funcionario;
-import classes.Gerente;
+import funcionarios.ControleBonificacao;
+import funcionarios.EditorVideo;
+import funcionarios.Funcionario;
+import funcionarios.Gerente;
 
 public class TesteReferencias {
 
