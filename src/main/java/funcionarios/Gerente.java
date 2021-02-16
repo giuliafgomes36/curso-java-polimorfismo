@@ -1,7 +1,7 @@
 package funcionarios;
 
 //Gerente herda da classe Funcionario Autenticavel
-public class Gerente extends FuncionarioAutenticavel{
+public class Gerente extends Funcionario{
 
     @Override
     public double getBonificacao(){
