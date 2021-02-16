@@ -1,6 +1,6 @@
 package contas;
 
-public class Conta {
+public abstract class Conta {
     //Os atributos por padrão são zerados.
     private double saldo;
     private int agencia;
