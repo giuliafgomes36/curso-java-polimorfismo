@@ -1,12 +1,11 @@
 package contas;
 
 public abstract class Conta {
-    //Os atributos por padrão são zerados.
-    private double saldo;
+    protected double saldo; //protected: classes filhas podem acessar.
     private int agencia;
     private int numero;
     private contas.Cliente titular;
-    private static int total;//O static esta se referenciando à classe e não a um objeto em específico (lembra uma variável global)
+    private static int total;
 
     public Conta(int agencia, int numero){
         Conta.total++;
@@ -14,9 +13,7 @@ public abstract class Conta {
         this.setNumero(numero);
     }
 
-    public void deposita (double valor){
-        this.saldo += valor;//Usamos o this para referir ao atributo do objeto que invocou o método.
-    }
+    public abstract void deposita (double valor);
 
     public boolean saca (double valor){
         if (this.saldo >= valor){
