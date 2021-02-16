@@ -1,6 +1,7 @@
 package funcionarios;
 
-public class Funcionario {
+//Indicando que a classe é abstrata, não pode ser instanciada
+public abstract class Funcionario {
 
     private String nome;
     private String cpf;
