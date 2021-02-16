@@ -9,4 +9,9 @@ public class ContaCorrente extends Conta{
         super(agencia, numero);
     }
 
+    @Override // -> anotação
+    public boolean saca(double valor) {
+        double valorSaque = valor + 0.2;
+        return super.saca(valorSaque);
+    }
 }
