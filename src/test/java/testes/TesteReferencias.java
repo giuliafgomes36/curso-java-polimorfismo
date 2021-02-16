@@ -19,10 +19,6 @@ public class TesteReferencias {
 
         //Polimorfismo entre funcionários:
 
-        Funcionario f1 = new Funcionario();
-        f1.setNome("Giulia");
-        f1.setSalario(1000);
-
         Gerente g1 = new Gerente();
         g1.setNome("Luana");
         g1.setSalario(5000);
@@ -32,7 +28,6 @@ public class TesteReferencias {
         ev1.setSalario(2500);
 
         ControleBonificacao controleBonificacao = new ControleBonificacao();
-        controleBonificacao.contador(f1);
         controleBonificacao.contador(g1);
         controleBonificacao.contador(ev1);
 

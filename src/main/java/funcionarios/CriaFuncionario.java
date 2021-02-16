@@ -3,7 +3,7 @@ package funcionarios;
 public class CriaFuncionario {
     public static void main(String[] args) {
 
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new Gerente();
         funcionario.setNome("Giulia Ferreira");
         funcionario.setCpf("222.222.222-22");
         funcionario.setSalario(1000.00);
