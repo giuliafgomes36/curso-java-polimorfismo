@@ -2,7 +2,7 @@ package testes;
 
 import funcionarios.Administrador;
 import funcionarios.Gerente;
-import funcionarios.SistemaInterno;
+import sistemas.SistemaInterno;
 
 public class TesteSistema {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package testes;
 
-import funcionarios.ControleBonificacao;
+import sistemas.ControleBonificacao;
 import funcionarios.EditorVideo;
 import funcionarios.Funcionario;
 import funcionarios.Gerente;

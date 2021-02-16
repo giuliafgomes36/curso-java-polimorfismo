@@ -1,4 +1,6 @@
-package funcionarios;
+package sistemas;
+
+import funcionarios.FuncionarioAutenticavel;
 
 public class SistemaInterno {
 
