@@ -1,4 +1,4 @@
-package funcionarios;
+package bean;
 
 //Indicando que a classe é abstrata, não pode ser instanciada
 public abstract class Funcionario {

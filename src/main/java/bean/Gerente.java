@@ -1,4 +1,4 @@
-package funcionarios;
+package bean;
 
 //Gerente herda da classe Funcionario e implementa a interface Autenticavel.
 public class Gerente extends Funcionario implements Autenticavel{

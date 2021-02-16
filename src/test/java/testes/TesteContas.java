@@ -1,7 +1,7 @@
 package testes;
 
-import contas.ContaCorrente;
-import contas.ContaPoupanca;
+import servicos.ContaCorrente;
+import servicos.ContaPoupanca;
 
 public class TesteContas {
 

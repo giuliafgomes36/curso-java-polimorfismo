@@ -1,6 +1,6 @@
 package sistemas;
 
-import funcionarios.Autenticavel;
+import bean.Autenticavel;
 
 public class SistemaInterno {
 

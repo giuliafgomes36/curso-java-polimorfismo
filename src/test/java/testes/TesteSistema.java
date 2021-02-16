@@ -1,9 +1,9 @@
 package testes;
 
-import contas.Cliente;
-import funcionarios.Administrador;
-import funcionarios.Autenticavel;
-import funcionarios.Gerente;
+import servicos.Cliente;
+import bean.Administrador;
+import bean.Autenticavel;
+import bean.Gerente;
 import sistemas.SistemaInterno;
 
 public class TesteSistema {

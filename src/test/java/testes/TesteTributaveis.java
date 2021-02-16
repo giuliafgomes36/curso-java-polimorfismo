@@ -1,7 +1,7 @@
 package testes;
 
-import contas.ContaCorrente;
-import contas.SeguroVida;
+import servicos.ContaCorrente;
+import servicos.SeguroVida;
 import sistemas.CalculadorImposto;
 
 public class TesteTributaveis {

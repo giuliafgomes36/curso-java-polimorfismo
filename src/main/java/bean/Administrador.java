@@ -1,4 +1,4 @@
-package funcionarios;
+package bean;
 
 public class Administrador extends Funcionario implements Autenticavel{
 

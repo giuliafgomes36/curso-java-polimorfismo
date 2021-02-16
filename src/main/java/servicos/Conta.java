@@ -1,10 +1,10 @@
-package contas;
+package servicos;
 
 public abstract class Conta {
     protected double saldo; //protected: classes filhas podem acessar.
     private int agencia;
     private int numero;
-    private contas.Cliente titular;
+    private servicos.Cliente titular;
     private static int total;
 
     public Conta(int agencia, int numero){
@@ -60,11 +60,11 @@ public abstract class Conta {
         this.numero = numero;
     }
 
-    public contas.Cliente getTitular() {
+    public servicos.Cliente getTitular() {
         return titular;
     }
 
-    public void setTitular(contas.Cliente titular) {
+    public void setTitular(servicos.Cliente titular) {
         this.titular = titular;
     }
 

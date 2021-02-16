@@ -1,4 +1,4 @@
-package funcionarios;
+package bean;
 
 public class EditorVideo extends Funcionario{
 

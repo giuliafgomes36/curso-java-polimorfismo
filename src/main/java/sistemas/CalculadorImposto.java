@@ -1,6 +1,6 @@
 package sistemas;
 
-import contas.Tributavel;
+import bean.Tributavel;
 
 public class CalculadorImposto {
 

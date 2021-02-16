@@ -1,4 +1,4 @@
-package contas;
+package bean;
 
 public interface Tributavel {
 

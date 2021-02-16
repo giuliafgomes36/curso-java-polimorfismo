@@ -1,6 +1,6 @@
 package sistemas;
 
-import funcionarios.Funcionario;
+import bean.Funcionario;
 
 public class ControleBonificacao {
 

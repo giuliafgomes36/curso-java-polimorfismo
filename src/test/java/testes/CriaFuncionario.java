@@ -1,4 +1,7 @@
-package funcionarios;
+package testes;
+
+import bean.Funcionario;
+import bean.Gerente;
 
 public class CriaFuncionario {
     public static void main(String[] args) {

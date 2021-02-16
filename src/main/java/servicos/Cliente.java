@@ -1,7 +1,7 @@
-package contas;
+package servicos;
 
-import funcionarios.Autenticador;
-import funcionarios.Autenticavel;
+import bean.Autenticador;
+import bean.Autenticavel;
 
 public class Cliente implements Autenticavel {
 

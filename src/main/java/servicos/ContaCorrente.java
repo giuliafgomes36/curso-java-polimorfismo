@@ -1,6 +1,8 @@
-package contas;
+package servicos;
 
-public class ContaCorrente extends Conta implements Tributavel{
+import bean.Tributavel;
+
+public class ContaCorrente extends Conta implements Tributavel {
     //Quando extendemos de uma classe com um construtor próprio, nossa classe filha apresenta um erro.
     //Isso pois as classes filhas não herdam construtores.
 

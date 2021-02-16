@@ -1,4 +1,4 @@
-package contas;
+package servicos;
 
 public class ContaPoupanca extends Conta{
     //Quando extendemos de uma classe com um construtor próprio, nossa classe filha apresenta um erro.

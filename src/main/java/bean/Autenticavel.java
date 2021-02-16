@@ -1,4 +1,4 @@
-package funcionarios;
+package bean;
 
 //Interface = contrato
 //Quem assinar esse contrato precisa implementar: metodo setSenha e metodo autentica

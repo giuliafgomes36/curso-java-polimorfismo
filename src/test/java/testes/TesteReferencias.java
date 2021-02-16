@@ -1,9 +1,9 @@
 package testes;
 
 import sistemas.ControleBonificacao;
-import funcionarios.EditorVideo;
-import funcionarios.Funcionario;
-import funcionarios.Gerente;
+import bean.EditorVideo;
+import bean.Funcionario;
+import bean.Gerente;
 
 public class TesteReferencias {
 
